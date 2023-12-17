@@ -16,6 +16,7 @@
   --padding: 20px;
   --hover-outline-color: rgba(50, 49, 45, 0.40);
   --background-image: url("../images/cover-image-light.png");
+  --background-color: #FFF1F7;
   }
 
   .page.theme_light {
@@ -30,6 +31,7 @@
   --padding: 20px;
   --hover-outline-color: rgba(50, 49, 45, 0.40);
   --background-image: url("../images/cover-image-light.png");
+  --background-color: #FFF1F7;
   }
   
   @media (prefers-color-scheme: light) {
@@ -46,11 +48,12 @@
       --padding: 20px;
       --hover-outline-color: rgba(50, 49, 45, 0.40);
       --background-image: url("../images/cover-image-light.png");
+      --background-color: #FFF1F7;
     }
 
     .header__decorated-element {
       display: none;
   }
-    
+  
   }
 

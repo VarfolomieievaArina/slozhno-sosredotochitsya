@@ -23,6 +23,7 @@
   --padding: 20px;
   --hover-outline-color: rgba(255, 0, 112, 0.40);
   --background-image: url("../images/cover-image-dark.png");
+  --background-color: #000028;
 }
 
 .page.theme_dark {

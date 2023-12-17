@@ -5,13 +5,13 @@
 }*/
 
 .page {
-  background-color: #000028;
+  background-color: var(--background-color);
   background-image: var(--background-image); /*указано сделать фоном .page в общих рекомендациях, хотя в макете фоновая картинка только в header*/
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size:cover;
-  /*max-inline-size: 1024px;*/
+  max-inline-size: 1024px;
   font-family: var(--main-font);
 }
 
