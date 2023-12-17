@@ -19,7 +19,7 @@
   position: relative;
   display: grid;
   grid-template-rows: 1fr auto 1fr;
-  min-block-size: calc(100dvh - var(--padding) * 2);
+  min-block-size: 768px;
 }
 
 @media (width <= 376px) { /*у меня при width <= 375px, присвоенные свойства начинают работать при 374px, поэтому взяла на 1px больше*/
@@ -244,10 +244,6 @@
   grid-row-end: 3;
 }
 
-.article__difficult-focus {
-  margin-inline-start: -10px;
-}
-
 .title-decor {
   background-color: var(--background-text-color);
   color: var(--subtitle-text-color);
@@ -337,10 +333,6 @@
   }
 }
 
-/*.article__concentration-advice {
-  margin-inline-start: -10px;
-}*/
-
 .advice__title {
   background-color: var(--background-text-color);
   color: var(--subtitle-text-color);
@@ -429,7 +421,6 @@
   min-height: 100vh;
   padding: 20px;
   position: relative;
-  min-block-size: calc(100dvh - var(--padding) * 2);
   margin-block-start: 40px;
 }
 
