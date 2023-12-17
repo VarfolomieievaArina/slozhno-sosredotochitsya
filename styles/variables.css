@@ -3,7 +3,7 @@
   и их переопределение под различные устройства
 */
 :root {
-  --main-font: 'IBM Plex mono';
+  --main-font: "IBM Plex mono", monospace; /*добавила альтернативный шрифт*/
   --accent-color: #ff0070;
   --accent-shadow-color: #ff0070;
   --text-shadow-color: #FF0070;

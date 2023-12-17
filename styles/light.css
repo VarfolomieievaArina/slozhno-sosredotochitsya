@@ -3,41 +3,29 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-
-  :root .theme_light {
-  --main-font: 'IBM Plex mono';
-  --accent-color: #353430;
-  --accent-shadow-color: #ff0070;
-  --text-shadow-color: #FF8DCB;
-  --background-text-color:#FF8DCB;
-  --title-color: #FFC2E6;
-  --subtitle-text-color: #353430;
-  --main-text-color: #353430;
-  --padding: 20px;
-  --hover-outline-color: rgba(50, 49, 45, 0.40);
-  --background-image: url("../images/cover-image-light.png");
-  --background-color: #FFF1F7;
-  }
-
-  .page.theme_light {
-  --main-font: 'IBM Plex mono';
-  --accent-color: #353430;
-  --accent-shadow-color: #ff0070;
-  --text-shadow-color: #FF8DCB;
-  --background-text-color:#FF8DCB;
-  --title-color: #FFC2E6;
-  --subtitle-text-color: #353430;
-  --main-text-color: #353430;
-  --padding: 20px;
-  --hover-outline-color: rgba(50, 49, 45, 0.40);
-  --background-image: url("../images/cover-image-light.png");
-  --background-color: #FFF1F7;
+  .page.theme_light { /*для класса светлой темы задала все отличия светлой темы от тёмной*/
+    --main-font: "IBM Plex mono", monospace;
+    --accent-color: #353430;
+    --accent-shadow-color: #ff0070;
+    --text-shadow-color: #FF8DCB;
+    --background-text-color:#FF8DCB;
+    --title-color: #FFC2E6;
+    --subtitle-text-color: #353430;
+    --main-text-color: #353430;
+    --padding: 20px;
+    --hover-outline-color: rgba(50, 49, 45, 0.40);
+    --background-image: url("../images/cover-image-light.png");
+    --background-color: #FFF1F7;
   }
   
+  .page.theme_light .header__decorated-element { /*Отдельно для составных селекторов внутри класса светлой темы*/
+    display: none;
+  }
+
   @media (prefers-color-scheme: light) {
 
     :root {
-      --main-font: 'IBM Plex mono';
+      --main-font: "IBM Plex mono", monospace;
       --accent-color: #353430;
       --accent-shadow-color: #ff0070;
       --text-shadow-color: #FF8DCB;

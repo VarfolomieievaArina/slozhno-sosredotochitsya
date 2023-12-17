@@ -12,7 +12,7 @@
 
 
 :root .theme_dark {
-  --main-font: 'IBM Plex mono';
+  --main-font: "IBM Plex mono", monospace;
   --accent-color: #ff0070;
   --accent-shadow-color: #ff0070;
   --text-shadow-color: #FF0070;
