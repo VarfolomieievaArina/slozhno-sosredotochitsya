@@ -13,6 +13,7 @@
   --main-text-color: #F1B2CE;
   --padding: 20px;
   --hover-outline-color: rgba(255, 0, 112, 0.40);
+  --link-outline-color: #F1B2CE;
   --background-image: url("../images/cover-image-dark.png");
   --background-color: #000028;
 }
