@@ -207,12 +207,12 @@
 
 /*Дальше секция main*/
 
-@media (width <= 767px) {/*375*/
-  .main {
+/*@media (width <= 767px) {/*375*/
+ /* .main {*/
     /*padding: 10px;*/
-    margin-block-start: 80px;
+   /* margin-block-start: 80px;
   }
-}
+}*/
 
 .section__difficult-focus {
   display: grid;
