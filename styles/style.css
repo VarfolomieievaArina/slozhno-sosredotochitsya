@@ -237,7 +237,7 @@
   .section__difficult-focus {
     display: flex;
     flex-direction: column;
-    margin-block-start: 50px;/*поменяла значение*/
+    margin-block-start: 30px;/*поменяла значение*/
     padding: 10px;
   }
 }
@@ -438,16 +438,11 @@
   margin-block-start: 40px;
 }
 
-/*@media (width <= 767px) {/*375*/
-  /*.footer {
-    display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  padding: 20px;
-  position: relative;
+@media (width <= 767px) {/*375*/
+  .footer {
+    margin-block-start: 30px;
   }
-}*/
+}
 
 .footer__title {
   color: var(--title-color);
